@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <img src="./img/logo.png" alt="">
+        <a  href="#contact">Contact Us</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+      <a href="#home">Home</a>
+     
+
+    </nav>
+    <section id="home">
+        <h1>Samurai</h1>  
+    </section>
+    <section id="about">
+        <h1>About</h1>
+        
+        <div class="absec">
+        <img src="./img/about.png" alt="">
+     
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Iure voluptatum necessitatibus, neque nemo ratione molestias 
+             maiores voluptatibus quam est fugit! Quae tempore officiis ea 
+             cupiditate dolorum ducimus sequi molestias tempora.
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Iure voluptatum necessitatibus, neque nemo ratione molestias 
+             maiores voluptatibus quam est fugit! Quae tempore officiis ea 
+             cupiditate dolorum ducimus sequi molestias tempora.
+             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Iure voluptatum necessitatibus, neque nemo ratione molestias 
+             maiores voluptatibus quam est fugit! Quae tempore officiis ea 
+             cupiditate dolorum ducimus sequi molestias tempora.</p>
+            </div>
+    </section>
+
+    <section id="gallery">
+        <h1>Gallery</h1>
+        <div class="slider">
+            <div class="images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+                <input type="radio" name="slide" id="img4">
+    
+                <img src="./img/1.jpg" class="m1" alt="img1">
+                <img src="./img/2.jpg" class="m2" alt="img2">
+                <img src="./img/3.jpg" class="m3" alt="img3">
+                <img src="./img/4.jpg" class="m4" alt="img4">
+            </div>
+            <div class="dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+            </div>
+        </div>
+    </section>
+    <div id="contact">
+        <div class="contact-form">
+          <h2>Contact Us</h2>
+          <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+    
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <div class="contact-image">
+          <img src="./img/5.png" alt="Contact Image">
+        </div>
+    </div>
+    <footer>
+        <p> &copy; All rights reserved  : <a href="mailto:inshra@gmail.com">inshra@gmail.com</a></p>
+      </footer>
+</html>
